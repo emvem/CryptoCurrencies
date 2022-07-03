@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  CryptoCurrenciesListView.swift
 //  CryptoCurrency
 //
 //  Created by Vadim Em on 26.06.2022.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct CryptoCurrenciesListView: View {
     var body: some View {
         Text("Hello, world!")
             .padding()
@@ -16,6 +16,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        CryptoCurrenciesListView()
     }
 }
