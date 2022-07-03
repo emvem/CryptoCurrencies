@@ -8,12 +8,6 @@
 import XCTest
 @testable import CryptoCurrency
 
-class MockCryptoCurrencyFetcher: CryptoCurrencyFetching {
-    func getCryptoCurrencies(completion: (Result<[Currency], Error>) -> Void) {
-        completion(.success([.bitcoin(5)]))
-    }
-}
-
 class MockCryptoCurrencyFetcherFailure: CryptoCurrencyFetching {
     func getCryptoCurrencies(completion: (Result<[Currency], Error>) -> Void) {
         completion(.failure(NSError(domain: "", code: 0, userInfo: [NSLocalizedDescriptionKey: "test"])))
@@ -21,34 +15,26 @@ class MockCryptoCurrencyFetcherFailure: CryptoCurrencyFetching {
 }
 
 class LoadCurrencyTests: XCTestCase {
-    
-    let sut = MockCryptoCurrencyFetcher()
-        
+            
     func testLoadingCurrencies() {
-        sut.getCryptoCurrencies(completion: { result in
-            switch result {
-            case .success(let currencies):
-                XCTAssertEqual(currencies.count, 1)
-                break
-            case .failure(let error):
-                break
-            }
-        })
+        fetchCoins(sut: MockCryptoCurrencyFetcher())
+
     }
     
     func testFailLoadingCurrencies() {
+        fetchCoins(sut: MockCryptoCurrencyFetcherFailure())
+    }
+
+    private func fetchCoins(sut: CryptoCurrencyFetching) {
         sut.getCryptoCurrencies(completion: { result in
             switch result {
             case .success(let currencies):
-                XCTAssertEqual(currencies.count, 1)
-                break
+                XCTAssertGreaterThan(currencies.count, 0)
             case .failure(let error):
                 XCTAssertEqual(error.localizedDescription, "test")
-                break
             }
         })
     }
-
     
 }
 
