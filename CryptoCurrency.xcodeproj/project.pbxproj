@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1302AE982871E8890025BEFF /* CryptoCurrenciesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1302AE972871E8890025BEFF /* CryptoCurrenciesListViewModel.swift */; };
+		1302AE9A2871E8AE0025BEFF /* CryptoCurrenciesListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1302AE992871E8AE0025BEFF /* CryptoCurrenciesListViewModelTests.swift */; };
 		132D4A0C2871E45B005D14A4 /* CryptoCurrencyFetching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132D4A0B2871E45B005D14A4 /* CryptoCurrencyFetching.swift */; };
 		132D4A0E2871E473005D14A4 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132D4A0D2871E473005D14A4 /* Currency.swift */; };
 		138532D028687293005C9783 /* CryptoCurrencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138532CF28687293005C9783 /* CryptoCurrencyApp.swift */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1302AE972871E8890025BEFF /* CryptoCurrenciesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrenciesListViewModel.swift; sourceTree = "<group>"; };
+		1302AE992871E8AE0025BEFF /* CryptoCurrenciesListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrenciesListViewModelTests.swift; sourceTree = "<group>"; };
 		132D4A0B2871E45B005D14A4 /* CryptoCurrencyFetching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrencyFetching.swift; sourceTree = "<group>"; };
 		132D4A0D2871E473005D14A4 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 		138532CC28687293005C9783 /* CryptoCurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoCurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,6 +108,7 @@
 			children = (
 				138532CF28687293005C9783 /* CryptoCurrencyApp.swift */,
 				138532D128687293005C9783 /* CryptoCurrenciesListView.swift */,
+				1302AE972871E8890025BEFF /* CryptoCurrenciesListViewModel.swift */,
 				138532D328687294005C9783 /* Assets.xcassets */,
 				138532D528687294005C9783 /* Preview Content */,
 				132D4A0B2871E45B005D14A4 /* CryptoCurrencyFetching.swift */,
@@ -126,6 +131,7 @@
 				138532FB286B4C8B005C9783 /* CurrencyNavigationTests.swift */,
 				138532E028687294005C9783 /* CryptoCurrencyTests.swift */,
 				138532F9286B49BD005C9783 /* LoadCurrenciesTests.swift */,
+				1302AE992871E8AE0025BEFF /* CryptoCurrenciesListViewModelTests.swift */,
 			);
 			path = CryptoCurrencyTests;
 			sourceTree = "<group>";
@@ -270,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				132D4A0E2871E473005D14A4 /* Currency.swift in Sources */,
+				1302AE982871E8890025BEFF /* CryptoCurrenciesListViewModel.swift in Sources */,
 				138532D228687293005C9783 /* CryptoCurrenciesListView.swift in Sources */,
 				132D4A0C2871E45B005D14A4 /* CryptoCurrencyFetching.swift in Sources */,
 				138532D028687293005C9783 /* CryptoCurrencyApp.swift in Sources */,
@@ -282,6 +289,7 @@
 			files = (
 				138532FA286B49BD005C9783 /* LoadCurrenciesTests.swift in Sources */,
 				138532FC286B4C8B005C9783 /* CurrencyNavigationTests.swift in Sources */,
+				1302AE9A2871E8AE0025BEFF /* CryptoCurrenciesListViewModelTests.swift in Sources */,
 				138532E128687294005C9783 /* CryptoCurrencyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
