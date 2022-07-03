@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "137BBD8128292F6D006562EC"
-               BuildableName = "TDDMoneyExample.app"
-               BlueprintName = "TDDMoneyExample"
-               ReferencedContainer = "container:TDDMoneyExample.xcodeproj">
+               BlueprintIdentifier = "138532CB28687293005C9783"
+               BuildableName = "CryptoCurrency.app"
+               BlueprintName = "CryptoCurrency"
+               ReferencedContainer = "container:CryptoCurrency.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "137BBD9728292F6F006562EC"
-               BuildableName = "TDDMoneyExampleTests.xctest"
-               BlueprintName = "TDDMoneyExampleTests"
-               ReferencedContainer = "container:TDDMoneyExample.xcodeproj">
+               BlueprintIdentifier = "138532DB28687294005C9783"
+               BuildableName = "CryptoCurrencyTests.xctest"
+               BlueprintName = "CryptoCurrencyTests"
+               ReferencedContainer = "container:CryptoCurrency.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "137BBDA128292F6F006562EC"
-               BuildableName = "TDDMoneyExampleUITests.xctest"
-               BlueprintName = "TDDMoneyExampleUITests"
-               ReferencedContainer = "container:TDDMoneyExample.xcodeproj">
+               BlueprintIdentifier = "138532E528687294005C9783"
+               BuildableName = "CryptoCurrencyUITests.xctest"
+               BlueprintName = "CryptoCurrencyUITests"
+               ReferencedContainer = "container:CryptoCurrency.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -64,10 +64,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "137BBD8128292F6D006562EC"
-            BuildableName = "TDDMoneyExample.app"
-            BlueprintName = "TDDMoneyExample"
-            ReferencedContainer = "container:TDDMoneyExample.xcodeproj">
+            BlueprintIdentifier = "138532CB28687293005C9783"
+            BuildableName = "CryptoCurrency.app"
+            BlueprintName = "CryptoCurrency"
+            ReferencedContainer = "container:CryptoCurrency.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -81,10 +81,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "137BBD8128292F6D006562EC"
-            BuildableName = "TDDMoneyExample.app"
-            BlueprintName = "TDDMoneyExample"
-            ReferencedContainer = "container:TDDMoneyExample.xcodeproj">
+            BlueprintIdentifier = "138532CB28687293005C9783"
+            BuildableName = "CryptoCurrency.app"
+            BlueprintName = "CryptoCurrency"
+            ReferencedContainer = "container:CryptoCurrency.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

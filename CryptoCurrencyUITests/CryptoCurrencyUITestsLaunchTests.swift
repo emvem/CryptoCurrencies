@@ -1,13 +1,13 @@
 //
-//  TDDMoneyExampleUITestsLaunchTests.swift
-//  TDDMoneyExampleUITests
+//  CryptoCurrencyUITestsLaunchTests.swift
+//  CryptoCurrencyUITests
 //
-//  Created by Vadim Em on 09.05.2022.
+//  Created by Vadim Em on 26.06.2022.
 //
 
 import XCTest
 
-class TDDMoneyExampleUITestsLaunchTests: XCTestCase {
+class CryptoCurrencyUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

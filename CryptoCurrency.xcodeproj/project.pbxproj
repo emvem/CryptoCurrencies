@@ -7,66 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		137BBD8628292F6D006562EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137BBD8528292F6D006562EC /* AppDelegate.swift */; };
-		137BBD8828292F6D006562EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137BBD8728292F6D006562EC /* SceneDelegate.swift */; };
-		137BBD8A28292F6D006562EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137BBD8928292F6D006562EC /* ViewController.swift */; };
-		137BBD8D28292F6D006562EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137BBD8B28292F6D006562EC /* Main.storyboard */; };
-		137BBD8F28292F6E006562EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 137BBD8E28292F6E006562EC /* Assets.xcassets */; };
-		137BBD9228292F6E006562EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137BBD9028292F6E006562EC /* LaunchScreen.storyboard */; };
-		137BBDA728292F6F006562EC /* TDDMoneyExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137BBDA628292F6F006562EC /* TDDMoneyExampleUITests.swift */; };
-		137BBDA928292F6F006562EC /* TDDMoneyExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137BBDA828292F6F006562EC /* TDDMoneyExampleUITestsLaunchTests.swift */; };
-		137BBDB628293008006562EC /* MoneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137BBDB528293008006562EC /* MoneyTests.swift */; };
+		132D4A0C2871E45B005D14A4 /* CryptoCurrencyFetching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132D4A0B2871E45B005D14A4 /* CryptoCurrencyFetching.swift */; };
+		132D4A0E2871E473005D14A4 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132D4A0D2871E473005D14A4 /* Currency.swift */; };
+		138532D028687293005C9783 /* CryptoCurrencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138532CF28687293005C9783 /* CryptoCurrencyApp.swift */; };
+		138532D228687293005C9783 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138532D128687293005C9783 /* ContentView.swift */; };
+		138532D428687294005C9783 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 138532D328687294005C9783 /* Assets.xcassets */; };
+		138532D728687294005C9783 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 138532D628687294005C9783 /* Preview Assets.xcassets */; };
+		138532E128687294005C9783 /* CryptoCurrencyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138532E028687294005C9783 /* CryptoCurrencyTests.swift */; };
+		138532EB28687294005C9783 /* CryptoCurrencyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138532EA28687294005C9783 /* CryptoCurrencyUITests.swift */; };
+		138532ED28687294005C9783 /* CryptoCurrencyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138532EC28687294005C9783 /* CryptoCurrencyUITestsLaunchTests.swift */; };
+		138532FA286B49BD005C9783 /* LoadCurrenciesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138532F9286B49BD005C9783 /* LoadCurrenciesTests.swift */; };
+		138532FC286B4C8B005C9783 /* CurrencyNavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138532FB286B4C8B005C9783 /* CurrencyNavigationTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		137BBD9928292F6F006562EC /* PBXContainerItemProxy */ = {
+		138532DD28687294005C9783 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 137BBD7A28292F6D006562EC /* Project object */;
+			containerPortal = 138532C428687292005C9783 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 137BBD8128292F6D006562EC;
-			remoteInfo = TDDMoneyExample;
+			remoteGlobalIDString = 138532CB28687293005C9783;
+			remoteInfo = CryptoCurrency;
 		};
-		137BBDA328292F6F006562EC /* PBXContainerItemProxy */ = {
+		138532E728687294005C9783 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 137BBD7A28292F6D006562EC /* Project object */;
+			containerPortal = 138532C428687292005C9783 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 137BBD8128292F6D006562EC;
-			remoteInfo = TDDMoneyExample;
+			remoteGlobalIDString = 138532CB28687293005C9783;
+			remoteInfo = CryptoCurrency;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		137BBD8228292F6D006562EC /* TDDMoneyExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDDMoneyExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		137BBD8528292F6D006562EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		137BBD8728292F6D006562EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		137BBD8928292F6D006562EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		137BBD8C28292F6D006562EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		137BBD8E28292F6E006562EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		137BBD9128292F6E006562EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		137BBD9328292F6E006562EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		137BBD9828292F6F006562EC /* TDDMoneyExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDMoneyExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		137BBDA228292F6F006562EC /* TDDMoneyExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDMoneyExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		137BBDA628292F6F006562EC /* TDDMoneyExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDMoneyExampleUITests.swift; sourceTree = "<group>"; };
-		137BBDA828292F6F006562EC /* TDDMoneyExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDMoneyExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		137BBDB528293008006562EC /* MoneyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTests.swift; sourceTree = "<group>"; };
+		132D4A0B2871E45B005D14A4 /* CryptoCurrencyFetching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrencyFetching.swift; sourceTree = "<group>"; };
+		132D4A0D2871E473005D14A4 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		138532CC28687293005C9783 /* CryptoCurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoCurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		138532CF28687293005C9783 /* CryptoCurrencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrencyApp.swift; sourceTree = "<group>"; };
+		138532D128687293005C9783 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		138532D328687294005C9783 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		138532D628687294005C9783 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		138532DC28687294005C9783 /* CryptoCurrencyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoCurrencyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		138532E028687294005C9783 /* CryptoCurrencyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrencyTests.swift; sourceTree = "<group>"; };
+		138532E628687294005C9783 /* CryptoCurrencyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoCurrencyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		138532EA28687294005C9783 /* CryptoCurrencyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrencyUITests.swift; sourceTree = "<group>"; };
+		138532EC28687294005C9783 /* CryptoCurrencyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrencyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		138532F9286B49BD005C9783 /* LoadCurrenciesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadCurrenciesTests.swift; sourceTree = "<group>"; };
+		138532FB286B4C8B005C9783 /* CurrencyNavigationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyNavigationTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		137BBD7F28292F6D006562EC /* Frameworks */ = {
+		138532C928687293005C9783 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		137BBD9528292F6F006562EC /* Frameworks */ = {
+		138532D928687294005C9783 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		137BBD9F28292F6F006562EC /* Frameworks */ = {
+		138532E328687294005C9783 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,138 +79,146 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		137BBD7928292F6D006562EC = {
+		138532C328687292005C9783 = {
 			isa = PBXGroup;
 			children = (
-				137BBD8428292F6D006562EC /* TDDMoneyExample */,
-				137BBD9B28292F6F006562EC /* TDDMoneyExampleTests */,
-				137BBDA528292F6F006562EC /* TDDMoneyExampleUITests */,
-				137BBD8328292F6D006562EC /* Products */,
+				138532CE28687293005C9783 /* CryptoCurrency */,
+				138532DF28687294005C9783 /* CryptoCurrencyTests */,
+				138532E928687294005C9783 /* CryptoCurrencyUITests */,
+				138532CD28687293005C9783 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		137BBD8328292F6D006562EC /* Products */ = {
+		138532CD28687293005C9783 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				137BBD8228292F6D006562EC /* TDDMoneyExample.app */,
-				137BBD9828292F6F006562EC /* TDDMoneyExampleTests.xctest */,
-				137BBDA228292F6F006562EC /* TDDMoneyExampleUITests.xctest */,
+				138532CC28687293005C9783 /* CryptoCurrency.app */,
+				138532DC28687294005C9783 /* CryptoCurrencyTests.xctest */,
+				138532E628687294005C9783 /* CryptoCurrencyUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		137BBD8428292F6D006562EC /* TDDMoneyExample */ = {
+		138532CE28687293005C9783 /* CryptoCurrency */ = {
 			isa = PBXGroup;
 			children = (
-				137BBD8528292F6D006562EC /* AppDelegate.swift */,
-				137BBD8728292F6D006562EC /* SceneDelegate.swift */,
-				137BBD8928292F6D006562EC /* ViewController.swift */,
-				137BBD8B28292F6D006562EC /* Main.storyboard */,
-				137BBD8E28292F6E006562EC /* Assets.xcassets */,
-				137BBD9028292F6E006562EC /* LaunchScreen.storyboard */,
-				137BBD9328292F6E006562EC /* Info.plist */,
+				138532CF28687293005C9783 /* CryptoCurrencyApp.swift */,
+				138532D128687293005C9783 /* ContentView.swift */,
+				138532D328687294005C9783 /* Assets.xcassets */,
+				138532D528687294005C9783 /* Preview Content */,
+				132D4A0B2871E45B005D14A4 /* CryptoCurrencyFetching.swift */,
+				132D4A0D2871E473005D14A4 /* Currency.swift */,
 			);
-			path = TDDMoneyExample;
+			path = CryptoCurrency;
 			sourceTree = "<group>";
 		};
-		137BBD9B28292F6F006562EC /* TDDMoneyExampleTests */ = {
+		138532D528687294005C9783 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				137BBDB528293008006562EC /* MoneyTests.swift */,
+				138532D628687294005C9783 /* Preview Assets.xcassets */,
 			);
-			path = TDDMoneyExampleTests;
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		137BBDA528292F6F006562EC /* TDDMoneyExampleUITests */ = {
+		138532DF28687294005C9783 /* CryptoCurrencyTests */ = {
 			isa = PBXGroup;
 			children = (
-				137BBDA628292F6F006562EC /* TDDMoneyExampleUITests.swift */,
-				137BBDA828292F6F006562EC /* TDDMoneyExampleUITestsLaunchTests.swift */,
+				138532FB286B4C8B005C9783 /* CurrencyNavigationTests.swift */,
+				138532E028687294005C9783 /* CryptoCurrencyTests.swift */,
+				138532F9286B49BD005C9783 /* LoadCurrenciesTests.swift */,
 			);
-			path = TDDMoneyExampleUITests;
+			path = CryptoCurrencyTests;
+			sourceTree = "<group>";
+		};
+		138532E928687294005C9783 /* CryptoCurrencyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				138532EA28687294005C9783 /* CryptoCurrencyUITests.swift */,
+				138532EC28687294005C9783 /* CryptoCurrencyUITestsLaunchTests.swift */,
+			);
+			path = CryptoCurrencyUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		137BBD8128292F6D006562EC /* TDDMoneyExample */ = {
+		138532CB28687293005C9783 /* CryptoCurrency */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 137BBDAC28292F6F006562EC /* Build configuration list for PBXNativeTarget "TDDMoneyExample" */;
+			buildConfigurationList = 138532F028687294005C9783 /* Build configuration list for PBXNativeTarget "CryptoCurrency" */;
 			buildPhases = (
-				137BBD7E28292F6D006562EC /* Sources */,
-				137BBD7F28292F6D006562EC /* Frameworks */,
-				137BBD8028292F6D006562EC /* Resources */,
+				138532C828687293005C9783 /* Sources */,
+				138532C928687293005C9783 /* Frameworks */,
+				138532CA28687293005C9783 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TDDMoneyExample;
-			productName = TDDMoneyExample;
-			productReference = 137BBD8228292F6D006562EC /* TDDMoneyExample.app */;
+			name = CryptoCurrency;
+			productName = CryptoCurrency;
+			productReference = 138532CC28687293005C9783 /* CryptoCurrency.app */;
 			productType = "com.apple.product-type.application";
 		};
-		137BBD9728292F6F006562EC /* TDDMoneyExampleTests */ = {
+		138532DB28687294005C9783 /* CryptoCurrencyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 137BBDAF28292F6F006562EC /* Build configuration list for PBXNativeTarget "TDDMoneyExampleTests" */;
+			buildConfigurationList = 138532F328687294005C9783 /* Build configuration list for PBXNativeTarget "CryptoCurrencyTests" */;
 			buildPhases = (
-				137BBD9428292F6F006562EC /* Sources */,
-				137BBD9528292F6F006562EC /* Frameworks */,
-				137BBD9628292F6F006562EC /* Resources */,
+				138532D828687294005C9783 /* Sources */,
+				138532D928687294005C9783 /* Frameworks */,
+				138532DA28687294005C9783 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				137BBD9A28292F6F006562EC /* PBXTargetDependency */,
+				138532DE28687294005C9783 /* PBXTargetDependency */,
 			);
-			name = TDDMoneyExampleTests;
-			productName = TDDMoneyExampleTests;
-			productReference = 137BBD9828292F6F006562EC /* TDDMoneyExampleTests.xctest */;
+			name = CryptoCurrencyTests;
+			productName = CryptoCurrencyTests;
+			productReference = 138532DC28687294005C9783 /* CryptoCurrencyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		137BBDA128292F6F006562EC /* TDDMoneyExampleUITests */ = {
+		138532E528687294005C9783 /* CryptoCurrencyUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 137BBDB228292F6F006562EC /* Build configuration list for PBXNativeTarget "TDDMoneyExampleUITests" */;
+			buildConfigurationList = 138532F628687294005C9783 /* Build configuration list for PBXNativeTarget "CryptoCurrencyUITests" */;
 			buildPhases = (
-				137BBD9E28292F6F006562EC /* Sources */,
-				137BBD9F28292F6F006562EC /* Frameworks */,
-				137BBDA028292F6F006562EC /* Resources */,
+				138532E228687294005C9783 /* Sources */,
+				138532E328687294005C9783 /* Frameworks */,
+				138532E428687294005C9783 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				137BBDA428292F6F006562EC /* PBXTargetDependency */,
+				138532E828687294005C9783 /* PBXTargetDependency */,
 			);
-			name = TDDMoneyExampleUITests;
-			productName = TDDMoneyExampleUITests;
-			productReference = 137BBDA228292F6F006562EC /* TDDMoneyExampleUITests.xctest */;
+			name = CryptoCurrencyUITests;
+			productName = CryptoCurrencyUITests;
+			productReference = 138532E628687294005C9783 /* CryptoCurrencyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		137BBD7A28292F6D006562EC /* Project object */ = {
+		138532C428687292005C9783 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
-					137BBD8128292F6D006562EC = {
+					138532CB28687293005C9783 = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
-					137BBD9728292F6F006562EC = {
+					138532DB28687294005C9783 = {
 						CreatedOnToolsVersion = 13.3.1;
-						LastSwiftMigration = 1330;
-						TestTargetID = 137BBD8128292F6D006562EC;
+						TestTargetID = 138532CB28687293005C9783;
 					};
-					137BBDA128292F6F006562EC = {
+					138532E528687294005C9783 = {
 						CreatedOnToolsVersion = 13.3.1;
-						TestTargetID = 137BBD8128292F6D006562EC;
+						TestTargetID = 138532CB28687293005C9783;
 					};
 				};
 			};
-			buildConfigurationList = 137BBD7D28292F6D006562EC /* Build configuration list for PBXProject "TDDMoneyExample" */;
+			buildConfigurationList = 138532C728687292005C9783 /* Build configuration list for PBXProject "CryptoCurrency" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -215,37 +226,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 137BBD7928292F6D006562EC;
-			productRefGroup = 137BBD8328292F6D006562EC /* Products */;
+			mainGroup = 138532C328687292005C9783;
+			productRefGroup = 138532CD28687293005C9783 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				137BBD8128292F6D006562EC /* TDDMoneyExample */,
-				137BBD9728292F6F006562EC /* TDDMoneyExampleTests */,
-				137BBDA128292F6F006562EC /* TDDMoneyExampleUITests */,
+				138532CB28687293005C9783 /* CryptoCurrency */,
+				138532DB28687294005C9783 /* CryptoCurrencyTests */,
+				138532E528687294005C9783 /* CryptoCurrencyUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		137BBD8028292F6D006562EC /* Resources */ = {
+		138532CA28687293005C9783 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				137BBD9228292F6E006562EC /* LaunchScreen.storyboard in Resources */,
-				137BBD8F28292F6E006562EC /* Assets.xcassets in Resources */,
-				137BBD8D28292F6D006562EC /* Main.storyboard in Resources */,
+				138532D728687294005C9783 /* Preview Assets.xcassets in Resources */,
+				138532D428687294005C9783 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		137BBD9628292F6F006562EC /* Resources */ = {
+		138532DA28687294005C9783 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		137BBDA028292F6F006562EC /* Resources */ = {
+		138532E428687294005C9783 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,69 +265,53 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		137BBD7E28292F6D006562EC /* Sources */ = {
+		138532C828687293005C9783 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				137BBD8A28292F6D006562EC /* ViewController.swift in Sources */,
-				137BBD8628292F6D006562EC /* AppDelegate.swift in Sources */,
-				137BBD8828292F6D006562EC /* SceneDelegate.swift in Sources */,
+				132D4A0E2871E473005D14A4 /* Currency.swift in Sources */,
+				138532D228687293005C9783 /* ContentView.swift in Sources */,
+				132D4A0C2871E45B005D14A4 /* CryptoCurrencyFetching.swift in Sources */,
+				138532D028687293005C9783 /* CryptoCurrencyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		137BBD9428292F6F006562EC /* Sources */ = {
+		138532D828687294005C9783 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				137BBDB628293008006562EC /* MoneyTests.swift in Sources */,
+				138532FA286B49BD005C9783 /* LoadCurrenciesTests.swift in Sources */,
+				138532FC286B4C8B005C9783 /* CurrencyNavigationTests.swift in Sources */,
+				138532E128687294005C9783 /* CryptoCurrencyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		137BBD9E28292F6F006562EC /* Sources */ = {
+		138532E228687294005C9783 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				137BBDA728292F6F006562EC /* TDDMoneyExampleUITests.swift in Sources */,
-				137BBDA928292F6F006562EC /* TDDMoneyExampleUITestsLaunchTests.swift in Sources */,
+				138532ED28687294005C9783 /* CryptoCurrencyUITestsLaunchTests.swift in Sources */,
+				138532EB28687294005C9783 /* CryptoCurrencyUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		137BBD9A28292F6F006562EC /* PBXTargetDependency */ = {
+		138532DE28687294005C9783 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 137BBD8128292F6D006562EC /* TDDMoneyExample */;
-			targetProxy = 137BBD9928292F6F006562EC /* PBXContainerItemProxy */;
+			target = 138532CB28687293005C9783 /* CryptoCurrency */;
+			targetProxy = 138532DD28687294005C9783 /* PBXContainerItemProxy */;
 		};
-		137BBDA428292F6F006562EC /* PBXTargetDependency */ = {
+		138532E828687294005C9783 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 137BBD8128292F6D006562EC /* TDDMoneyExample */;
-			targetProxy = 137BBDA328292F6F006562EC /* PBXContainerItemProxy */;
+			target = 138532CB28687293005C9783 /* CryptoCurrency */;
+			targetProxy = 138532E728687294005C9783 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		137BBD8B28292F6D006562EC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				137BBD8C28292F6D006562EC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		137BBD9028292F6E006562EC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				137BBD9128292F6E006562EC /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		137BBDAA28292F6F006562EC /* Debug */ = {
+		138532EE28687294005C9783 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -377,7 +371,7 @@
 			};
 			name = Debug;
 		};
-		137BBDAB28292F6F006562EC /* Release */ = {
+		138532EF28687294005C9783 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -431,19 +425,20 @@
 			};
 			name = Release;
 		};
-		137BBDAD28292F6F006562EC /* Debug */ = {
+		138532F128687294005C9783 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CryptoCurrency/Preview Content\"";
 				DEVELOPMENT_TEAM = DQ6L83DHC2;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TDDMoneyExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -451,7 +446,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.emvem.TDDMoneyExample;
+				PRODUCT_BUNDLE_IDENTIFIER = me.emvem.CryptoCurrency;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -459,19 +454,20 @@
 			};
 			name = Debug;
 		};
-		137BBDAE28292F6F006562EC /* Release */ = {
+		138532F228687294005C9783 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CryptoCurrency/Preview Content\"";
 				DEVELOPMENT_TEAM = DQ6L83DHC2;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TDDMoneyExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -479,7 +475,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.emvem.TDDMoneyExample;
+				PRODUCT_BUNDLE_IDENTIFIER = me.emvem.CryptoCurrency;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -487,60 +483,47 @@
 			};
 			name = Release;
 		};
-		137BBDB028292F6F006562EC /* Debug */ = {
+		138532F428687294005C9783 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DQ6L83DHC2;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.emvem.TDDMoneyExampleTests;
+				PRODUCT_BUNDLE_IDENTIFIER = me.emvem.CryptoCurrencyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDDMoneyExample.app/TDDMoneyExample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoCurrency.app/CryptoCurrency";
 			};
 			name = Debug;
 		};
-		137BBDB128292F6F006562EC /* Release */ = {
+		138532F528687294005C9783 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DQ6L83DHC2;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.emvem.TDDMoneyExampleTests;
+				PRODUCT_BUNDLE_IDENTIFIER = me.emvem.CryptoCurrencyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDDMoneyExample.app/TDDMoneyExample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoCurrency.app/CryptoCurrency";
 			};
 			name = Release;
 		};
-		137BBDB328292F6F006562EC /* Debug */ = {
+		138532F728687294005C9783 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -549,16 +532,16 @@
 				DEVELOPMENT_TEAM = DQ6L83DHC2;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.emvem.TDDMoneyExampleUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = me.emvem.CryptoCurrencyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TDDMoneyExample;
+				TEST_TARGET_NAME = CryptoCurrency;
 			};
 			name = Debug;
 		};
-		137BBDB428292F6F006562EC /* Release */ = {
+		138532F828687294005C9783 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -567,55 +550,55 @@
 				DEVELOPMENT_TEAM = DQ6L83DHC2;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.emvem.TDDMoneyExampleUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = me.emvem.CryptoCurrencyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TDDMoneyExample;
+				TEST_TARGET_NAME = CryptoCurrency;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		137BBD7D28292F6D006562EC /* Build configuration list for PBXProject "TDDMoneyExample" */ = {
+		138532C728687292005C9783 /* Build configuration list for PBXProject "CryptoCurrency" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				137BBDAA28292F6F006562EC /* Debug */,
-				137BBDAB28292F6F006562EC /* Release */,
+				138532EE28687294005C9783 /* Debug */,
+				138532EF28687294005C9783 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		137BBDAC28292F6F006562EC /* Build configuration list for PBXNativeTarget "TDDMoneyExample" */ = {
+		138532F028687294005C9783 /* Build configuration list for PBXNativeTarget "CryptoCurrency" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				137BBDAD28292F6F006562EC /* Debug */,
-				137BBDAE28292F6F006562EC /* Release */,
+				138532F128687294005C9783 /* Debug */,
+				138532F228687294005C9783 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		137BBDAF28292F6F006562EC /* Build configuration list for PBXNativeTarget "TDDMoneyExampleTests" */ = {
+		138532F328687294005C9783 /* Build configuration list for PBXNativeTarget "CryptoCurrencyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				137BBDB028292F6F006562EC /* Debug */,
-				137BBDB128292F6F006562EC /* Release */,
+				138532F428687294005C9783 /* Debug */,
+				138532F528687294005C9783 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		137BBDB228292F6F006562EC /* Build configuration list for PBXNativeTarget "TDDMoneyExampleUITests" */ = {
+		138532F628687294005C9783 /* Build configuration list for PBXNativeTarget "CryptoCurrencyUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				137BBDB328292F6F006562EC /* Debug */,
-				137BBDB428292F6F006562EC /* Release */,
+				138532F728687294005C9783 /* Debug */,
+				138532F828687294005C9783 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 137BBD7A28292F6D006562EC /* Project object */;
+	rootObject = 138532C428687292005C9783 /* Project object */;
 }
